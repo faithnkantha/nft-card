@@ -1,0 +1,113 @@
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    width: 1440px;
+}
+#inline{
+    background-color: hsl(216, 50%, 16%);
+    width: 400px;
+    height: 650px;
+    position: absolute;
+    left: 55%;
+    top: 10%;
+    border-radius: 10px;
+
+}
+img{
+    width: 325px;
+    object-fit: contain;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border-radius: 15px;
+    
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    padding: 10%;
+    font-family: 'Outfit', sans-serif; 
+    font-weight: 900; 
+}
+h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+p{
+    color: hsl(215, 51%, 70%);
+    position: absolute;
+    top: 60%;
+    padding: 10%;
+    font-family: 'Outfit', sans-serif; 
+    font-size: 15px;
+    font-weight: 300;
+}
+.eth{
+    color:hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif; 
+    font-size: 15px;
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    
+}
+h3,.eth{
+    float: left;
+    display: inline;
+}
+h3{
+    color:hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif; 
+    font-size: 15px;
+    position: absolute;
+    top: 78%;
+    left: 15%;
+
+}
+.clock{
+    color:hsl(215, 51%, 70%) ;
+    position: absolute;
+    top: 74%;
+    left: 57%;
+    font-family: 'Outfit', sans-serif; 
+    font-size: 15px;
+
+}
+.day{
+    color:hsl(215, 51%, 70%) ;
+    position: absolute;
+    top: 79.5%;
+    left: 73%;
+    font-family: 'Outfit', sans-serif; 
+    font-size: 15px;
+}
+.line{
+    position: absolute;
+    top: 85%;
+    width: 325px;
+    left: 10%;
+    background-color:hsl(215, 51%, 70%);
+    border: none;
+    height: 1px;
+}
+.avatar{
+    position: absolute;
+    top: 84%;
+    right: 50%; 
+    padding:0%;
+}
+.last{
+    position: absolute;
+    top: 90%;
+    right: 33%; 
+    padding:0%;
+    color:hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif; 
+    font-size: 15px;
+}
+span{
+    color: white;
+}
+span:hover{
+    color: hsl(178, 100%, 50%);
+}
